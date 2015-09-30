@@ -1,0 +1,19 @@
+.btn-gotop{
+	height: 60px;
+	width: 60px;
+	border-radius: 5px;
+	background-color: orange;
+	background-color: rgba(orange,0.2);
+	color: #666;
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+	line-height: 60px;
+	text-align: center;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	&:hover{
+		cursor: pointer;
+	}
+	// display: none;
+}

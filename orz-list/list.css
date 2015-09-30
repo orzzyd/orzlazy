@@ -1,0 +1,25 @@
+.orz-list {
+  width: 300px;
+  padding: 50px;
+  background-color: #ddd; }
+  .orz-list li {
+    list-style: none;
+    display: block;
+    font-family: Microsoft Yahei;
+    font-weight: bold;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-left: solid #444 2px;
+    padding-left: 8px; }
+    .orz-list li:hover {
+      color: #80bd01;
+      border-left: solid #80bd01 2px; }
+  .orz-list .darker {
+    background-color: #c9c9c9; }
+  .orz-list .lighter {
+    background-color: #f1f1f1; }
+
+/*# sourceMappingURL=list.css.map */

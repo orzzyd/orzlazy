@@ -1,0 +1,41 @@
+.orz-slider {
+  width: 1000px;
+  position: relative; }
+  .orz-slider img {
+    width: 100%; }
+  .orz-slider .left, .orz-slider .right {
+    width: 3%;
+    position: absolute;
+    bottom: 45%;
+    background-color: rgba(204, 204, 204, 0.1);
+    border-radius: 50%; }
+    .orz-slider .left:hover, .orz-slider .right:hover {
+      background-color: rgba(204, 204, 204, 0.8);
+      cursor: pointer; }
+  .orz-slider .left {
+    left: 1%; }
+  .orz-slider .right {
+    right: 1%; }
+  .orz-slider ul {
+    position: absolute;
+    bottom: 1%;
+    left: 50%; }
+  .orz-slider li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    right: 50%;
+    margin: 0px 5px;
+    cursor: pointer; }
+  .orz-slider .point {
+    height: 10px;
+    width: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    border: 1px solid #80bd01; }
+    .orz-slider .point:hover {
+      background-color: #80bd01; }
+  .orz-slider .point-active {
+    background-color: #80bd01; }
+
+/*# sourceMappingURL=slider.css.map */
